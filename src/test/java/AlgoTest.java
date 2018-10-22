@@ -1,5 +1,7 @@
 package test.java;
 
+import org.junit.Test;
+
 //import static org.junit.jupiter.api.Assertions.*;
 
 //import java.util.Vector;
@@ -9,11 +11,11 @@ package test.java;
 import main.java.Item;
 import main.java.SortAlgos;
 
-class AlgoTest {
+public class AlgoTest {
 
 	//Should return sequence 2,3,4,5,6
-	//@Test
-	void testBubbleSort() {
+	@Test
+	public void testBubbleSort() {
 		SortAlgos test =new SortAlgos();
 		Item one= new Item(4);
 		Item two= new Item(3);
@@ -33,8 +35,8 @@ class AlgoTest {
 	}
 
 	////Should return sequence 2,3,4,5,6
-	//@Test
-	void testMergesort() {
+	@Test
+	public void testMergesort() {
 		SortAlgos test =new SortAlgos();
 		Item one= new Item(4);
 		Item two= new Item(3);
@@ -51,8 +53,8 @@ class AlgoTest {
 		
 	}
 	//Should return sequence 2,3,4,5,6
-		//@Test
-		void testSelectionSort() {
+		@Test
+		public void testSelectionSort() {
 			SortAlgos test =new SortAlgos();
 			Item one= new Item(4);
 			Item two= new Item(3);
@@ -69,8 +71,8 @@ class AlgoTest {
 			
 	}
 		//Should return sequence 2,2,3,5,6
-		//@Test
-		void testInsertionSort() {
+		@Test
+		public void testInsertionSort() {
 			SortAlgos test =new SortAlgos();
 			Item one= new Item(2);
 			Item two= new Item(3);
@@ -87,8 +89,8 @@ class AlgoTest {
 			
 	}
 		//Should return 2,2,3,5,6
-		//@Test
-		void testQuickSort() {
+		@Test
+		public void testQuickSort() {
 			SortAlgos test =new SortAlgos();
 			Item one= new Item(2);
 			Item two= new Item(3);
@@ -104,8 +106,8 @@ class AlgoTest {
 			}
 		}	
 		//Should return 2,2,3,5,6
-		//@Test
-	void testHeapSort() {
+	@Test
+	public void testHeapSort() {
 		SortAlgos test =new SortAlgos();
 		Item one= new Item(2);
 		Item two= new Item(3);
@@ -121,8 +123,8 @@ class AlgoTest {
 		}
 		}
 		//Should return 3,6,71,392,500
-	//@Test
-		void testQuickSort2() {
+		@Test
+		public void testQuickSort2() {
 			SortAlgos test =new SortAlgos();
 			Item one= new Item(71);
 			Item two= new Item(3);
@@ -139,8 +141,8 @@ class AlgoTest {
 }
 }
 		//Should return 5,39,100,200,600
-		//@Test
-	void testHeapSort2() {
+	@Test
+	public void testHeapSort2() {
 		SortAlgos test =new SortAlgos();
 		Item one= new Item(100);
 		Item two= new Item(39);
@@ -157,8 +159,8 @@ class AlgoTest {
 		}
 }
 		//Should return 4,4,4,4,4
-	//@Test
-		void testSelectionSort2() {
+	    @Test
+		public void testSelectionSort2() {
 			SortAlgos test =new SortAlgos();
 			Item one= new Item(4);
 			Item two= new Item(4);
@@ -174,8 +176,8 @@ class AlgoTest {
 			}
 		}
 			//Should return sequence 16,21,29,30,50
-		//@Test
-			void testInsertionSort2() {
+		    @Test
+			public void testInsertionSort2() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(21);
 				Item two= new Item(30);
@@ -192,8 +194,8 @@ class AlgoTest {
 				
 			}	
 			//Should return 200,999,999,999,999
-			//@Test
-		void testHeapSort3() {
+		@Test
+		public void testHeapSort3() {
 			SortAlgos test =new SortAlgos();
 			Item one= new Item(999);
 			Item two= new Item(999);
@@ -210,8 +212,8 @@ class AlgoTest {
 			}
 }
 			//Should return sequence 3,12,22,5111,69999
-		//@Test
-			void testInsertionSort3() {
+			@Test
+			public void testInsertionSort3() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(12);
 				Item two= new Item(3);
@@ -228,8 +230,8 @@ class AlgoTest {
 }
 			
 			//Should return sequence 3,12,22,5111,69999
-			//@Test
-			void testQuickSort3() {
+			@Test
+			public void testQuickSort3() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(12);
 				Item two= new Item(3);
@@ -245,8 +247,8 @@ class AlgoTest {
 				}
 }
 			//Should return sequence 0,0,3,6,5
-			//@Test
-			void testBubbleSort3() {
+			@Test
+			public void testBubbleSort3() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(0);
 				Item two= new Item(3);
@@ -264,8 +266,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 01,26,033,33,53
-			//@Test
-			void testBubbleSort4() {
+			@Test
+			public void testBubbleSort4() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(01);
 				Item two= new Item(33);
@@ -283,8 +285,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 1,999,9999,100000,9999999
-			//@Test
-			void testBubbleSort5() {
+			@Test
+			public void testBubbleSort5() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(9999999);
 				Item two= new Item(100000);
@@ -302,8 +304,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 40,50,60,70,80
-			//@Test
-			void testBubbleSort6() {
+			@Test
+			public void testBubbleSort6() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(80);
 				Item two= new Item(60);
@@ -321,8 +323,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-			//@Test
-			void testBubbleSort7() {
+			@Test
+			public void testBubbleSort7() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(80);
 				Item two= new Item(60);
@@ -348,8 +350,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-			//@Test
-			void testInsertionsort() {
+			@Test
+			public void testInsertionsort() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(80);
 				Item two= new Item(60);
@@ -375,8 +377,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-			//@Test
-			void testQuicksort() {
+			@Test
+			public void testQuicksort() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(80);
 				Item two= new Item(60);
@@ -402,8 +404,8 @@ class AlgoTest {
 				}
 			}
 			//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-			//@Test
-			void testHeapSort6() {
+			@Test
+			public void testHeapSort6() {
 				SortAlgos test =new SortAlgos();
 				Item one= new Item(80);
 				Item two= new Item(60);
@@ -429,8 +431,8 @@ class AlgoTest {
 				}
 			}
 				//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-			//@Test
-				void testHeapSort16() {
+			@Test
+				public void testHeapSort16() {
 					SortAlgos test =new SortAlgos();
 					Item one= new Item(0);
 					Item two= new Item(0);
@@ -456,8 +458,8 @@ class AlgoTest {
 					}
 				}
 					//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-				//@Test
-					void testHeapSort63() {
+				@Test
+					public void testHeapSort63() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(6);
@@ -485,8 +487,8 @@ class AlgoTest {
 			
 				
 					//Should return sequence 1,999,9999,100000,9999999
-					//@Test
-					void testBubbleSort95() {
+					@Test
+					public void testBubbleSort95() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(9999999);
 						Item two= new Item(100000);
@@ -504,8 +506,8 @@ class AlgoTest {
 						}
 					}
 					////Should return sequence 2,3,4,5,6
-					//@Test
-					void testMergesort5() {
+					@Test
+					public void testMergesort5() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(40000);
 						Item two= new Item(300);
@@ -521,8 +523,8 @@ class AlgoTest {
 						}
 						}
 					////Should return sequence 2,3,4,5,6
-					//@Test
-					void testMergesort60() {
+					@Test
+					public void testMergesort60() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(4990);
 						Item two= new Item(4003);
@@ -539,8 +541,8 @@ class AlgoTest {
 						
 }
 					////Should return sequence 2,3,4,5,6
-					//@Test
-					void testMergesort560() {
+					@Test
+					public void testMergesort560() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(4990);
 						Item two= new Item(3);
@@ -556,8 +558,8 @@ class AlgoTest {
 						}
 					}
 					//Should return sequence 2,3,4,5,6
-					//@Test
-					void testSelectionSort8() {
+					@Test
+					public void testSelectionSort8() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(60);
@@ -583,8 +585,8 @@ class AlgoTest {
 						
 				}
 					//Should return sequence 10,20,60,70,80,110,200,380,511,699,700
-					//@Test
-					void testHeapSort663() {
+					@Test
+					public void testHeapSort663() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(6);
@@ -613,8 +615,8 @@ class AlgoTest {
 							assert(v[i]==v1[i]);
 						}
 					}
-					//@Test
-					void testmergeSort663() {
+					@Test
+					public void testmergeSort663() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(6);
@@ -643,8 +645,8 @@ class AlgoTest {
 							assert(v[i]==v1[i]);
 						}
 					}
-					//@Test
-					void testmergeSorting663() {
+					@Test
+					public void testmergeSorting663() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(6);
@@ -673,8 +675,8 @@ class AlgoTest {
 							assert(v[i]==v1[i]);
 						}
 					}
-					//@Test
-					void testSelection() {
+					@Test
+					public void testSelection() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(6);
@@ -703,8 +705,8 @@ class AlgoTest {
 							assert(v[i]==v1[i]);
 						}
 					}
-					//@Test
-					void testinsertionSort663() {
+					@Test
+					public void testinsertionSort663() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(80);
 						Item two= new Item(6);
@@ -733,8 +735,8 @@ class AlgoTest {
 							assert(v[i]==v1[i]);
 						}
 					}
-					//@Test
-					void testinsertionSort63() {
+					@Test
+					public void testinsertionSort63() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(800);
 						Item two= new Item(600);
@@ -758,8 +760,8 @@ class AlgoTest {
 							assert(v[i]==v1[i]);
 						}
 					}
-					//@Test
-					void testBubblesort() {
+					@Test
+					public void testBubblesort() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(800);
 						Item two= new Item(6);
@@ -789,8 +791,8 @@ class AlgoTest {
 						}
 					}
 					////Should return sequence 2,3,4,5,6
-					//@Test
-					void testInsertionsrt() {
+					@Test
+					public void testInsertionsrt() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(14);
 						Item two= new Item(3);
@@ -807,8 +809,8 @@ class AlgoTest {
 						
 					}
 					////Should return sequence 2,3,4,5,6
-					//@Test
-					void testMergeSort() {
+					@Test
+					public void testMergeSort() {
 						SortAlgos test =new SortAlgos();
 						Item one= new Item(400);
 						Item two= new Item(3000000);
@@ -824,8 +826,8 @@ class AlgoTest {
 						}
 					}
 					////Should return sequence 2,3,4,5,6
-					//@Test
-						void testInsertionsOrt() {
+					@Test
+						public void testInsertionsOrt() {
 							SortAlgos test =new SortAlgos();
 							Item one= new Item(14);
 							Item two= new Item(3);
@@ -845,8 +847,8 @@ class AlgoTest {
 								assert(v[i]==v1[i]);
 							}
 						}
-						//@Test
-							void testMergesort68() {
+						@Test
+							public void testMergesort68() {
 								SortAlgos test =new SortAlgos();
 								Item one= new Item(4990);
 								Item two= new Item(3);
@@ -865,8 +867,8 @@ class AlgoTest {
 								}
 							}
 							////Should return sequence 2,3,4,5,6
-							//@Test
-							void testMergesorting60() {
+							@Test
+							public void testMergesorting60() {
 								SortAlgos test =new SortAlgos();
 								Item one= new Item(0);
 								Item two= new Item(4003);
@@ -886,8 +888,8 @@ class AlgoTest {
 								
 					}
 							////Should return sequence 2,3,4,5,6
-							//@Test
-							void testMerge60() {
+							@Test
+							public void testMerge60() {
 								SortAlgos test =new SortAlgos();
 								Item one= new Item(0);
 								Item two= new Item(4003);
@@ -906,8 +908,8 @@ class AlgoTest {
 								}
 							}
 							////Should return sequence 2,3,4,5,6
-							//@Test
-							void testMergeSORT() {
+							@Test
+							public void testMergeSORT() {
 								SortAlgos test =new SortAlgos();
 								Item one= new Item(0);
 								Item two= new Item(4003);
